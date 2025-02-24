@@ -65,8 +65,8 @@
   - type: StationEvent
     startAnnouncement: station-event-unknown-shuttle-incoming
     startAudio:
-      path: /Audio/Announcements/attention.ogg
-    weight: 4 #Common, but not every round
+      path: /Audio/_Reserve/announcement/attention.ogg # Reserve
+    weight: 10 # 10 default
     reoccurrenceDelay: 30
     earliestStart: 20 # Goobstation
     duration: 1
