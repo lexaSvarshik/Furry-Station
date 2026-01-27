@@ -16,7 +16,7 @@ VERSION = os.environ["GITHUB_SHA"]
 
 RELEASE_DIR = "release"
 
-ROBUST_CDN_URL = "https://cdn.reserve-station/"
+ROBUST_CDN_URL = "https://cdn.reserve-station.space/"
 FORK_ID = "GoobLRP"
 
 def main():
