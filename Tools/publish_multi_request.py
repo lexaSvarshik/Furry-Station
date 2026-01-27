@@ -17,7 +17,7 @@ VERSION = os.environ["GITHUB_SHA"]
 RELEASE_DIR = "release"
 
 ROBUST_CDN_URL = "https://cdn.reserve-station.space/"
-FORK_ID = "GoobLRP"
+FORK_ID = "reserve"
 
 def main():
     session = requests.Session()
