@@ -2,6 +2,10 @@
 # SPDX-FileCopyrightText: 2024 Saphire Lattice <lattice@saphi.re>
 # SPDX-FileCopyrightText: 2024 Vasilis <vasilis@pikachu.systems>
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 ReserveBot <211949879+ReserveBot@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Rouden <149893554+Roudenn@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Svarshik <96281939+lexaSvarshik@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 nazrin <tikufaev@outlook.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -14,7 +18,7 @@
 #jobs:
 #  add_label:
 #    # Change the repository name after you've made sure the team name is correct for your fork!
-#    if: ${{ (github.repository == 'Goob-Station/Goob-Station') && (github.event.review.state == 'APPROVED') }}
+#    if: ${{ (github.repository == 'Reserve-Station/Reserve-Station-Lite') && (github.event.review.state == 'APPROVED') }}
 #    permissions:
 #      contents: read
 #      pull-requests: write

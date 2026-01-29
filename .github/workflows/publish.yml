@@ -25,7 +25,7 @@ name: Publish
 
 on:
   workflow_dispatch:
-  #schedule: # reserve
+  #schedule: #Reserve edit
   #  - cron: '0 10 * * *'
 
 concurrency:
@@ -34,7 +34,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest # reserve
+    runs-on: ubuntu-latest #Reserve edit. No self-hosted sadly
 
 
     steps:
@@ -58,7 +58,7 @@ jobs:
       with:
         submodules: 'recursive'
     - name: Setup .NET Core
-      # if: env.skip == 'false' # reserve
+      # if: env.skip == 'false' #Reserve edit. Always setup. Or idk.
       uses: actions/setup-dotnet@v3.2.0
       with:
         dotnet-version: 9.0.x
